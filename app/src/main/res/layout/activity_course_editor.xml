@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Day of the Week Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day of the Week"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:id="@+id/editDayOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Course Time Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time of Course"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editCourseTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course time (e.g. 10:00)"
+        android:inputType="time"/>
+
+    <!-- Course Name Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course name"
+        android:inputType="text"/>
+
+    <!-- Instructor Name Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructor Name"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editInstructorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter instructor name"
+        android:inputType="text"/>
+
+    <!-- Capacity Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacity"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter capacity"
+        android:inputType="number"/>
+
+    <!-- Duration Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration (minutes)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter duration"
+        android:inputType="number"/>
+
+    <!-- Price Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price"
+        android:inputType="numberDecimal"/>
+
+    <!-- Type of Class Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of Class"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:id="@+id/editClassType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Description Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter description (optional)"
+        android:inputType="textMultiLine"/>
+
+    <!-- Additional Notes Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Notes (Optional)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editAdditionalNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add any additional notes"
+        android:inputType="textMultiLine"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Course"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDeleteCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Course"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

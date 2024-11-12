@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "226045995227",
+    "project_id": "yoga-coursework-b5a4b",
+    "storage_bucket": "yoga-coursework-b5a4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226045995227:android:08ec9cc66669a6ab8e84fe",
+        "android_client_info": {
+          "package_name": "com.duongtn.adminapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw8CeH13-I1AtgL6yVY5M7FsauipIoj0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
